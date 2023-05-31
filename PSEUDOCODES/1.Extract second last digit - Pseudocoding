@@ -1,0 +1,10 @@
+Let's consider any number n, 
+	In order to extract the second last digit 
+	Let temp = Math.floor(n/10)  the floor value of the number divided by 10
+	Let secondLast = temp%10  (the modulo operator will provide the remainder) 
+         
+ Example - let n = 152 
+		Let temp = Math. floor(n/10) = 15
+		Let secondLast = temp%10 = 15%10 = 5 
+ 	Hence the second last number
+

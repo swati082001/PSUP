@@ -1,0 +1,6 @@
+1.Given an input number n
+2. If n < = 0 , then print -1 and return. 
+2. Else, Initialise a variable to find the power of 2 raise to n, eg- Power.
+3. Split the number Power into an array 
+4. Loop over every digit and take the sum of all the digits.
+

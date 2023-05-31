@@ -1,0 +1,6 @@
+1.To extract the first digit post decimal point.
+2.Convert the number into a string (eg-str)
+3.Loop through the string and store the index of the decimal point 
+4.Store the value of the character of the string with the index of the decimal point+1 eg-(str[dotIndex+1]).
+5.Convert the type of the value to a number.
+6.Print the result.

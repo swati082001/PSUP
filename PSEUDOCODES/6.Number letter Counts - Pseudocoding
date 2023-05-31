@@ -1,0 +1,18 @@
+1.Create an object with the keys as numbers ranging from 0 to 9 and the value as their word representation.
+
+    let obj={
+            0:"zero",
+            1:"one",
+            2:"two",
+            3:"three",
+            4:"four",
+            5:"five",
+            6:"six",
+            7:"seven",
+            8:"eight",
+            9:"nine"
+        }
+
+2.Convert the input Number into an array.
+3.Iterate through the array and if the particular element is present in the object, then count the length of its word representation. 
+4.Return the sum of the length of the element's word representation.

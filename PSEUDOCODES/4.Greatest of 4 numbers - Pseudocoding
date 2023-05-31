@@ -1,0 +1,6 @@
+1.Assign values to four variables: n1, n2, n3, and n4.
+2.Set the initial value of a variable called maxNum to n1 (which is 12).
+3.Compare maxNum with n2. If n2 is greater than maxNum, update maxNum to n2.
+4.Compare maxNum with n3. If n3 is greater than maxNum, update maxNum to n3.
+5.Compare maxNum with n4. If n4 is greater than maxNum, update maxNum to n4.
+6.Print the value of maxNum, which will be the largest among the four given numbers.

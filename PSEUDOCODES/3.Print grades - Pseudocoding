@@ -1,0 +1,21 @@
+1. Read the input score.
+2. Initialize the variable "grade" as an empty string.
+
+3. Check the score range and assign the corresponding grade:
+    - If the score is between 0 and 39 (inclusive):
+        - Set grade as "F".
+    - Else if the score is between 40 and 50 (inclusive):
+        - Set grade as "D".
+    - Else if the score is between 51 and 60 (inclusive):
+        - Set grade as "C".
+    - Else if the score is between 61 and 70 (inclusive):
+        - Set grade as "B".
+    - Else if the score is between 71 and 80 (inclusive):
+        - Set grade as "A".
+    - Else if the score is between 81 and 100 (inclusive):
+        - Set grade as "S".
+    - Else:
+        - Print "Invalid Score" and exit the program.
+
+4. Print the assigned grade.
+
