@@ -53,19 +53,48 @@
 
 
 
-let rows = 2;
-let cols = 3;
+// let rows = 2;
+// let cols = 3;
 
-let arr = new Array(cols);
-let matrix = []
-for(let i=0;i<rows;i++){
-   matrix.push(arr)
-}
+// let arr = new Array(cols);
+// let matrix = []
+// for(let i=0;i<rows;i++){
+//    matrix.push(arr)
+// }
 
-for(let i=0;i<rows;i++){
-    for(let k=0;k<cols;k++){
-        matrix[i][k] = 1;
+// for(let i=0;i<rows;i++){
+//     for(let k=0;k<cols;k++){
+//         matrix[i][k] = 1;
+//     }
+// }
+
+// console.log(matrix)
+
+let n = 3;
+let series = 2709360626;
+series = series.toString().split("");
+
+let maxPrdt = 0;
+
+for(let i=0;i<series.length;i++){
+    let arr = [];
+    for(let j=i;j<series.length;j++){
+        arr.push(series[j])
+       if(arr.length===n){
+          let prdt = getProduct(arr)
+        if(prdt > maxPrdt){
+            maxPrdt = prdt;
+        }
+       }
     }
 }
 
-console.log(matrix)
+console.log(maxPrdt);
+
+function getProduct(arr){
+    let prdt = 1;
+    for(let i=0;i<arr.length;i++){
+        prdt = prdt * arr[i];
+    }
+    return prdt;
+}
