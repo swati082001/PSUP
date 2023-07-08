@@ -23,7 +23,7 @@ int main() {
     }
 
     
-    std::cout << ans << std::endl;
+    cout << ans << endl;
 
     return 0;
 }
